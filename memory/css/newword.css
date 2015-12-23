@@ -1,0 +1,55 @@
+html,
+body {
+    background: transparent;
+ 
+ 
+    
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    font-family: Roboto-Regular;
+    line-height:1;
+    width: 350px;
+   
+}
+
+#main{
+	background: #00a9E6;
+	border-radius: 2px; 
+	
+}
+
+ 
+  
+ .titletip{
+   padding-top: 10px;
+   font-size: 30px;
+   color: #fff;
+ }
+
+ #word{
+   -webkit-app-region: no-drag;
+    font-size: 25px;
+    color: #FFFFFF  ;
+    
+  text-shadow: 0 0 1px #fff, 0 0 1px #666, 0 0 1px #333, 0 0 1px #333, 0 0 1px #333;
+  
+      
+ }
+ 
+ .bts{
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
+  #mean{
+  font-size: 25px;
+  padding-top: 15px;
+   
+  color: #fff;
+ 
+ }
+ 
+ .nosel{
+   -webkit-user-select: none;
+ }
+ 
+ 

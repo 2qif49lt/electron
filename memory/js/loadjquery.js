@@ -1,0 +1,1 @@
+ window.$ = window.jQuery = require(__dirname + '/js/jquery-2.1.4.min.js');

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="main" class="container-fluid">
+        <div class="row triangle">
+            <div class="col-xs-10"></div>
+            <div class="col-xs-2">
+                <span class="glyphicon glyphicon-triangle-top" aria-hidden="true" ></span>
+            </div>
+        </div>
+        <div id = "board" class="row">
+            <div class="col-xs-9 colmargin">
+                <span id = "word" class = "">word</span>
+                <span id = "count" class = "nosel">2015-12-9</span>
+                <div id = "mean" class = "">mean</div>
+            </div>
+            <div class="col-xs-1 buttons nosel  ">
+                <button type="button" class="btn btn-link btn-xlarge" data-toggle="tooltip" data-placement="bottom" title="delete(ctrl+shift+d)" >
+                    <span id="del" class="glyphicon glyphicon-remove yellow" aria-hidden="true" ></span>
+                </button>
+            </div>
+            <div class="col-xs-2 buttons nosel  ">
+                <button type="button" class="btn btn-link btn-xlarge" data-toggle="tooltip" data-placement="bottom" title="pass(ctrl+shift+p)">
+                    <span id="pass" class="glyphicon glyphicon-ok green" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/loadjquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

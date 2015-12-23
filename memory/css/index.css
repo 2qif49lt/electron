@@ -1,0 +1,106 @@
+html,
+body {
+    background: transparent;
+ 
+    overflow: hidden;
+    width: 375px;
+  /*  -webkit-app-region: drag;
+    -webkit-user-select: none;*/
+    font-family: Roboto-Regular;
+    line-height:1;
+}
+
+
+.shadow{
+  box-shadow: rgba(0,0,0,0.8) 0 0 5px;
+}
+#board{
+    background: #00B9E6;
+    border-radius: 5px;
+ 
+     background: #00B9E6;
+    border-radius: 5px; 
+    height: 75px;
+    
+}
+ 
+ .colmargin{
+   margin-top:-5px;
+ }
+
+.green{
+  color: #61FA09;
+}
+.white {
+  color: #fff;
+}
+.yellow {
+  color: #F8E71C;
+}
+ 
+ 
+
+ #word{
+   -webkit-app-region: no-drag;
+    font-size: 25px;
+    color: #FFFFFF  ;
+    
+  text-shadow: 0 0 1px #fff, 0 0 1px #666, 0 0 1px #333, 0 0 1px #333, 0 0 1px #333;
+  
+      
+ }
+ 
+ #count{
+    display: inline-block;
+  
+   font-size: 8px;
+    color: #eee;
+ 
+  margin-top: 0px;
+  
+ 
+ }
+  #mean{
+  font-size: 12px;
+ line-height:3.5;
+   
+  color: #fff;
+  visibility: hidden;
+ }
+ 
+ .nosel{
+   -webkit-user-select: none;
+ }
+ 
+ .buttons {
+    padding: 5px 0px;
+ 
+    text-align: center;
+    vertical-align:middle; 
+   
+}
+
+ 
+.glyphicon.glyphicon-triangle-top {
+ 
+    font-size: 32px;
+    color: #00B9E6;
+
+}
+.row.triangle{
+  height: 22px;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+button span:hover{
+  font-size: 22px;
+}
+ 
+.btn-xlarge {
+ 
+    font-size: 18px;  
+    line-height: normal;
+ 
+}
+
